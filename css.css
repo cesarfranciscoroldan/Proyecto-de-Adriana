@@ -1,0 +1,70 @@
+.cabecalho {
+    background-color: #1c1c1c;
+}
+
+.menu {
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+}
+
+.nome,
+.sobre,
+.trabalho,
+.contato {
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+}
+
+.info__nome {
+    margin-left: 20px;
+}
+
+.info__sobre {
+    margin-left: 700px;
+}
+
+.info__trabalho {
+    margin-left: 20px;
+}
+
+.info__contato {
+    margin-left: 20px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 546px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #1c1c1c;
+}
+
+.minha__imagem {
+    display: flex;
+    border-radius: 100%;
+    overflow: hidden;
+    height: 130px;
+    width: 130px;
+}
+
+.nome__avatar {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 45px;
+    position: absolute;
+    bottom: 35px;
+    left: 95px;
+}
+
+.oficio__avatar {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 25px;
+    position: absolute;
+    bottom: 20px;
+    left: 165px;
+}
